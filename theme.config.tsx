@@ -2,7 +2,12 @@ import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
-  logo: <span>Archimedes</span>,
+  logo: (
+    <span>
+      <span style={{ textDecoration: 'line-through' }}>Pedo</span>
+      <span>Technophile</span>
+    </span>
+  ),
   project: {
     link: 'https://github.com/shuding/nextra-docs-template',
   },
